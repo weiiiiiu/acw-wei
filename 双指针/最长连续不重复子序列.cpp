@@ -12,7 +12,7 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
         cin >> a[i];
-    int res = 0;
+    int res = 0;//序列长
     for (int i = 0, j = 0; i < n; i++)
     {
         s[a[i]]++; // i,j共同维护一个具备check性质的区间
